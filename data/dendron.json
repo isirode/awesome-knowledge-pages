@@ -127,7 +127,8 @@
     "enableTaskNotes": true,
     "enablePrettyLinks": true,
     "searchMode": "search",
-    "siteUrl": "localhost:3000",
+    "siteUrl": "https://isirode.github.io",
+    "assetsPrefix": "/awesome-knowledge-pages",
     "siteFaviconPath": "favicon.ico",
     "siteIndex": "root"
   }
