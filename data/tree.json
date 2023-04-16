@@ -1,0 +1,123 @@
+{
+  "roots": [
+    {
+      "key": "zemh9c57p0ywtbqwkha0soq",
+      "title": "Computing",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "docs",
+      "children": [
+        {
+          "key": "39ey2tgd31f8y93gd7xaup8",
+          "title": "Game",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "docs",
+          "children": [
+            {
+              "key": "ym37t0fififqhxatkudbgva",
+              "title": "Procedural Texture",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "docs",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "3279dmpg8304tgol4f7qa7f",
+          "title": "Web",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "docs",
+          "children": [
+            {
+              "key": "ytfs18osddd01wh6njq1p2v",
+              "title": "Bundler",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "docs",
+              "children": []
+            },
+            {
+              "key": "eq70ln13eqi7r5dpy11otvf",
+              "title": "Hot Reload",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "docs",
+              "children": []
+            },
+            {
+              "key": "8efkofdg60fix6e56a90biv",
+              "title": "Scaffolding",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "docs",
+              "children": []
+            },
+            {
+              "key": "5hphgz8q15n4ec0gpn55rx1",
+              "title": "TypeScript",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "docs",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "toyv6kmg7rwqipup4ddf6ri",
+      "title": "Math",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "docs",
+      "children": [
+        {
+          "key": "gec1zrobc0enq04a0mgijbn",
+          "title": "Geometry",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "docs",
+          "children": [
+            {
+              "key": "99r2x1rqn5bjkis60k7vu7t",
+              "title": "Convert Angle to Vector2",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "docs",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "zemh9c57p0ywtbqwkha0soq": null,
+    "39ey2tgd31f8y93gd7xaup8": "zemh9c57p0ywtbqwkha0soq",
+    "ym37t0fififqhxatkudbgva": "39ey2tgd31f8y93gd7xaup8",
+    "3279dmpg8304tgol4f7qa7f": "zemh9c57p0ywtbqwkha0soq",
+    "ytfs18osddd01wh6njq1p2v": "3279dmpg8304tgol4f7qa7f",
+    "eq70ln13eqi7r5dpy11otvf": "3279dmpg8304tgol4f7qa7f",
+    "8efkofdg60fix6e56a90biv": "3279dmpg8304tgol4f7qa7f",
+    "5hphgz8q15n4ec0gpn55rx1": "3279dmpg8304tgol4f7qa7f",
+    "toyv6kmg7rwqipup4ddf6ri": null,
+    "gec1zrobc0enq04a0mgijbn": "toyv6kmg7rwqipup4ddf6ri",
+    "99r2x1rqn5bjkis60k7vu7t": "gec1zrobc0enq04a0mgijbn"
+  },
+  "notesLabelById": {
+    "zemh9c57p0ywtbqwkha0soq": "Computing",
+    "39ey2tgd31f8y93gd7xaup8": "Game",
+    "ym37t0fififqhxatkudbgva": "Procedural Texture",
+    "3279dmpg8304tgol4f7qa7f": "Web",
+    "ytfs18osddd01wh6njq1p2v": "Bundler",
+    "eq70ln13eqi7r5dpy11otvf": "Hot Reload",
+    "8efkofdg60fix6e56a90biv": "Scaffolding",
+    "5hphgz8q15n4ec0gpn55rx1": "TypeScript",
+    "toyv6kmg7rwqipup4ddf6ri": "Math",
+    "gec1zrobc0enq04a0mgijbn": "Geometry",
+    "99r2x1rqn5bjkis60k7vu7t": "Convert Angle to Vector2"
+  }
+}

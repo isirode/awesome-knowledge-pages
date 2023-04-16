@@ -1,0 +1,77 @@
+<h1 id="bundler">Bundler<a aria-hidden="true" class="anchor-heading icon-link" href="#bundler"></a></h1>
+<h1 id="bundler-1">Bundler<a aria-hidden="true" class="anchor-heading icon-link" href="#bundler-1"></a></h1>
+<p>Bundling is the action of packaging the code and assets of an application.</p>
+<h2 id="tools">Tools<a aria-hidden="true" class="anchor-heading icon-link" href="#tools"></a></h2>
+<h3 id="webpack">webpack<a aria-hidden="true" class="anchor-heading icon-link" href="#webpack"></a></h3>
+<p>Very used bundling tool.</p>
+<p>Review: very complicated</p>
+<h3 id="parcel">parcel<a aria-hidden="true" class="anchor-heading icon-link" href="#parcel"></a></h3>
+<p>Very used bundling tool.</p>
+<p>It is supposed to be easy to use.</p>
+<p>It is supposed to not require a configuration.</p>
+<p>It works with Typescript natively, relatively well.</p>
+<p>Url: <a href="https://parceljs.org/">https://parceljs.org/</a></p>
+<p>Review: not as easy to use as declared</p>
+<h3 id="bugs-encountered">Bugs encountered<a aria-hidden="true" class="anchor-heading icon-link" href="#bugs-encountered"></a></h3>
+<p>Not all of them are Parcel responsability, some were caused by Typescript.</p>
+<p>They are not exhaustive, I've also encountered a bug where I had to put "--no-scope-hoist" to the command, for instance.</p>
+<h4 id="when-building-a-library">When building a library<a aria-hidden="true" class="anchor-heading icon-link" href="#when-building-a-library"></a></h4>
+<p>I've encountered the error:</p>
+<pre><code>Error: Failed to install @parcel/transformer-typescript-tsc: process.chdir() is not supported in workers
+</code></pre>
+<p>When building a library, to fix it, I've run:</p>
+<blockquote>
+<p>npm i --save-dev  <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@parcel/transformer-typescript-tsc (Private)</a></p>
+</blockquote>
+<h4 id="export-issue">Export issue<a aria-hidden="true" class="anchor-heading icon-link" href="#export-issue"></a></h4>
+<p>I've encountered the error: </p>
+<pre><code>@parcel/core: my-path/my-class.ts does not export 'MyClass'
+</code></pre>
+<p>It was an interface, I've exported it as a type :</p>
+<pre><code>export type { MyInterface } from 'my-path/MyInterface.ts
+</code></pre>
+<p>I think it was inside an index.ts file.</p>
+<h4 id="import-issue">Import issue<a aria-hidden="true" class="anchor-heading icon-link" href="#import-issue"></a></h4>
+<pre><code>Uncaught TypeError: (0 , _myLib.MyClass) is not a constructor
+</code></pre>
+<p>I am not sure what I've done to fix this one.</p>
+<h4 id="dependency-reload">dependency reload<a aria-hidden="true" class="anchor-heading icon-link" href="#dependency-reload"></a></h4>
+<p>Be aware that it will not reload the cache if the dependency is a link.</p>
+<p>See this <a href="https://github.com/parcel-bundler/parcel/issues/4332">issue</a>.</p>
+<p>I've added the argument '--no-cache':</p>
+<ul>
+<li>It still require to reload the page</li>
+<li>I think it need to restart the watch also </li>
+</ul>
+<h4 id="targetting-web-app--library">Targetting web app + library<a aria-hidden="true" class="anchor-heading icon-link" href="#targetting-web-app--library"></a></h4>
+<p>It did not work very well, on a Typescript project.</p>
+<p>You are not allowed to specify a main, module or types.</p>
+<p>I did some work and solved some issues.</p>
+<p>I was left with this error:</p>
+<pre><code>@parcel/packager-js: External modules are not supported when building for browser
+</code></pre>
+<p>Adding this solved the build issue:</p>
+<pre class="language-json"><code class="language-json"><span class="token property">"engines"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">"node"</span><span class="token operator">:</span> <span class="token string">">= 16"</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre>
+<p>No types were exported though, and it was not importable.</p>
+<p>I stopped looking how to fix there, and made another project, and a common library.</p>
+<h4 id="tsc-interop">tsc interop<a aria-hidden="true" class="anchor-heading icon-link" href="#tsc-interop"></a></h4>
+<p>I've encoutered this error:</p>
+<pre><code>TypeError: Class constructor Command cannot be invoked without 'new'
+</code></pre>
+<p>I was working on a parcel project with tsc enabled.</p>
+<p>I tried to setup esModuleInterop in tsconfig.json, without results.</p>
+<p>This did not work either, setting "target": "ES6" in tsconfig.json.</p>
+<p>Removing <a href="https://parceljs.org/languages/typescript/#tsc">https://parceljs.org/languages/typescript/#tsc</a> solved the issue.</p>
+<h3 id="rollupjs">rollup.js<a aria-hidden="true" class="anchor-heading icon-link" href="#rollupjs"></a></h3>
+<p>Url: <a href="https://rollupjs.org/">https://rollupjs.org/</a></p>
+<p>Review: not tested</p>
+<h3 id="brunchio">brunch.io<a aria-hidden="true" class="anchor-heading icon-link" href="#brunchio"></a></h3>
+<p>Url: <a href="https://brunch.io/">https://brunch.io/</a></p>
+<p>Review: not tested</p>
+<h3 id="gulpjs">gulpjs<a aria-hidden="true" class="anchor-heading icon-link" href="#gulpjs"></a></h3>
+<p>I'ved used it, I can't recall wether it was good or not.</p>
+<p>Url: <a href="https://gulpjs.com/">https://gulpjs.com/</a></p>
+<p>Review: same as not tested</p>

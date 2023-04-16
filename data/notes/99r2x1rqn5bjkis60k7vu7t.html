@@ -1,0 +1,27 @@
+<h1 id="convert-angle-to-vector2">Convert Angle to Vector2<a aria-hidden="true" class="anchor-heading icon-link" href="#convert-angle-to-vector2"></a></h1>
+<h2 id="convert-an-angle-to-a-vector2">Convert an angle to a Vector2<a aria-hidden="true" class="anchor-heading icon-link" href="#convert-an-angle-to-a-vector2"></a></h2>
+<p>If you have the angle you want to convert, you can use the cosinus and the sinus to obtain the angle's coordinates:</p>
+<p>x = cosinus(angle)
+y = sinus(angle)</p>
+<p>In mathematics, the cosinus would be the length of the bottom edge, and the sinus would provide the length of the opposite edge.</p>
+<p>In graphics, it become the coordinate of the vector.</p>
+<h3 id="javascript">Javascript<a aria-hidden="true" class="anchor-heading icon-link" href="#javascript"></a></h3>
+<pre class="language-javascript"><code class="language-javascript">
+<span class="token keyword">let</span> angle <span class="token operator">=</span> <span class="token number">90</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> vector <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vector2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+vector<span class="token punctuation">.</span><span class="token property-access">x</span> <span class="token operator">=</span> <span class="token known-class-name class-name">Math</span><span class="token punctuation">.</span><span class="token method function property-access">cos</span><span class="token punctuation">(</span>angle<span class="token punctuation">)</span><span class="token punctuation">;</span>
+vector<span class="token punctuation">.</span><span class="token property-access">y</span> <span class="token operator">=</span> <span class="token known-class-name class-name">Math</span><span class="token punctuation">.</span><span class="token method function property-access">sin</span><span class="token punctuation">(</span>angle<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</code></pre>
+<p>Using the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">Math built-in object</a></p>
+<h2 id="convert-this-vector2-to-a-position">Convert this Vector2 to a position<a aria-hidden="true" class="anchor-heading icon-link" href="#convert-this-vector2-to-a-position"></a></h2>
+<p>You can obtain a coordinate by multiplying the Vector2 by a length.</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token keyword">var</span> coordinate <span class="token operator">=</span> vector <span class="token operator">*</span> <span class="token number">5</span>
+</code></pre>
+<h2 id="convert-the-vector2-direction-to-an-angle">Convert the Vector2 direction to an angle<a aria-hidden="true" class="anchor-heading icon-link" href="#convert-the-vector2-direction-to-an-angle"></a></h2>
+<p>You can use atan2(y, x) to obtain the angle back.</p>
+<h3 id="javascript-1">Javascript<a aria-hidden="true" class="anchor-heading icon-link" href="#javascript-1"></a></h3>
+<pre class="language-javascript"><code class="language-javascript">
+<span class="token keyword">let</span> angle <span class="token operator">=</span> <span class="token known-class-name class-name">Math</span><span class="token punctuation">.</span><span class="token method function property-access">atan2</span><span class="token punctuation">(</span>vector<span class="token punctuation">.</span><span class="token property-access">y</span><span class="token punctuation">,</span> vector<span class="token punctuation">.</span><span class="token property-access">x</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</code></pre>

@@ -1,0 +1,702 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1681660618344,
+      "created": 1681660618344,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "os9ivsua46f0vj4p0yyqhx0": {
+      "id": "os9ivsua46f0vj4p0yyqhx0",
+      "title": "Root",
+      "desc": "",
+      "updated": 1681658547293,
+      "created": 1676142715220,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "f2b2cb51b9be244f6389288b0e9baa6c",
+      "links": [],
+      "anchors": {
+        "awesome-knowledge": {
+          "type": "header",
+          "text": "Awesome Knowledge",
+          "value": "awesome-knowledge",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "zemh9c57p0ywtbqwkha0soq",
+        "toyv6kmg7rwqipup4ddf6ri"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "toyv6kmg7rwqipup4ddf6ri": {
+      "fname": "math",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1681660618187,
+      "created": 1681660618187,
+      "id": "toyv6kmg7rwqipup4ddf6ri",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "gec1zrobc0enq04a0mgijbn"
+      ],
+      "parent": "os9ivsua46f0vj4p0yyqhx0",
+      "data": {},
+      "title": "Math"
+    },
+    "gec1zrobc0enq04a0mgijbn": {
+      "fname": "math.geometry",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1681660618187,
+      "created": 1681660618187,
+      "id": "gec1zrobc0enq04a0mgijbn",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "99r2x1rqn5bjkis60k7vu7t"
+      ],
+      "parent": "toyv6kmg7rwqipup4ddf6ri",
+      "data": {},
+      "title": "Geometry"
+    },
+    "99r2x1rqn5bjkis60k7vu7t": {
+      "id": "99r2x1rqn5bjkis60k7vu7t",
+      "title": "Convert Angle to Vector2",
+      "desc": "",
+      "updated": 1681658615832,
+      "created": 1676142818024,
+      "custom": {},
+      "fname": "math.geometry.convert-angle-to-vector2",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "f0d05e6aa1da17dba3594e65ada4e9d0",
+      "links": [],
+      "anchors": {
+        "convert-an-angle-to-a-vector2": {
+          "type": "header",
+          "text": "Convert an angle to a Vector2",
+          "value": "convert-an-angle-to-a-vector2",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "javascript": {
+          "type": "header",
+          "text": "Javascript",
+          "value": "javascript",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "convert-this-vector2-to-a-position": {
+          "type": "header",
+          "text": "Convert this Vector2 to a position",
+          "value": "convert-this-vector2-to-a-position",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        },
+        "convert-the-vector2-direction-to-an-angle": {
+          "type": "header",
+          "text": "Convert the Vector2 direction to an angle",
+          "value": "convert-the-vector2-direction-to-an-angle",
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        },
+        "javascript-1": {
+          "type": "header",
+          "text": "Javascript",
+          "value": "javascript-1",
+          "line": 44,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "gec1zrobc0enq04a0mgijbn",
+      "data": {}
+    },
+    "zemh9c57p0ywtbqwkha0soq": {
+      "fname": "computing",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1681660618182,
+      "created": 1681660618182,
+      "id": "zemh9c57p0ywtbqwkha0soq",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "39ey2tgd31f8y93gd7xaup8",
+        "3279dmpg8304tgol4f7qa7f"
+      ],
+      "parent": "os9ivsua46f0vj4p0yyqhx0",
+      "data": {},
+      "title": "Computing"
+    },
+    "3279dmpg8304tgol4f7qa7f": {
+      "fname": "computing.web",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1681660618183,
+      "created": 1681660618183,
+      "id": "3279dmpg8304tgol4f7qa7f",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "ytfs18osddd01wh6njq1p2v",
+        "eq70ln13eqi7r5dpy11otvf",
+        "8efkofdg60fix6e56a90biv",
+        "5hphgz8q15n4ec0gpn55rx1"
+      ],
+      "parent": "zemh9c57p0ywtbqwkha0soq",
+      "data": {},
+      "title": "Web"
+    },
+    "5hphgz8q15n4ec0gpn55rx1": {
+      "id": "5hphgz8q15n4ec0gpn55rx1",
+      "title": "TypeScript",
+      "desc": "",
+      "updated": 1681658900985,
+      "created": 1677417089370,
+      "custom": {},
+      "fname": "computing.web.typescript",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "69914ae1a565c7587484cd1b8165736e",
+      "links": [],
+      "anchors": {
+        "typescript": {
+          "type": "header",
+          "text": "Typescript",
+          "value": "typescript",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "3279dmpg8304tgol4f7qa7f",
+      "data": {}
+    },
+    "8efkofdg60fix6e56a90biv": {
+      "id": "8efkofdg60fix6e56a90biv",
+      "title": "Scaffolding",
+      "desc": "",
+      "updated": 1681659012421,
+      "created": 1676838474013,
+      "custom": {},
+      "fname": "computing.web.scaffolding",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "cf4817ed772745a3051038ecd1d3a7ea",
+      "links": [],
+      "anchors": {
+        "scaffolding": {
+          "type": "header",
+          "text": "Scaffolding",
+          "value": "scaffolding",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "tools": {
+          "type": "header",
+          "text": "Tools",
+          "value": "tools",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "yeoman": {
+          "type": "header",
+          "text": "Yeoman",
+          "value": "yeoman",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "creating-a-generator": {
+          "type": "header",
+          "text": "Creating a generator",
+          "value": "creating-a-generator",
+          "line": 20,
+          "column": 0,
+          "depth": 4
+        },
+        "typescript-generator": {
+          "type": "header",
+          "text": "Typescript generator",
+          "value": "typescript-generator",
+          "line": 25,
+          "column": 0,
+          "depth": 4
+        }
+      },
+      "children": [],
+      "parent": "3279dmpg8304tgol4f7qa7f",
+      "data": {}
+    },
+    "eq70ln13eqi7r5dpy11otvf": {
+      "id": "eq70ln13eqi7r5dpy11otvf",
+      "title": "Hot Reload",
+      "desc": "",
+      "updated": 1681659387385,
+      "created": 1676213478943,
+      "custom": {},
+      "fname": "computing.web.hot-reload",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "f7e1d41ded42fe376c8389669c10c203",
+      "links": [],
+      "anchors": {
+        "hot-reload": {
+          "type": "header",
+          "text": "Hot reload",
+          "value": "hot-reload",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "tools": {
+          "type": "header",
+          "text": "Tools",
+          "value": "tools",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "live-server": {
+          "type": "header",
+          "text": "live-server",
+          "value": "live-server",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "nodemon": {
+          "type": "header",
+          "text": "nodemon",
+          "value": "nodemon",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        },
+        "node-dev": {
+          "type": "header",
+          "text": "node-dev",
+          "value": "node-dev",
+          "line": 32,
+          "column": 0,
+          "depth": 3
+        },
+        "ts-node-dev": {
+          "type": "header",
+          "text": "ts-node-dev",
+          "value": "ts-node-dev",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        },
+        "tsc": {
+          "type": "header",
+          "text": "tsc",
+          "value": "tsc",
+          "line": 54,
+          "column": 0,
+          "depth": 3
+        },
+        "webpack": {
+          "type": "header",
+          "text": "webpack",
+          "value": "webpack",
+          "line": 60,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "3279dmpg8304tgol4f7qa7f",
+      "data": {}
+    },
+    "ytfs18osddd01wh6njq1p2v": {
+      "id": "ytfs18osddd01wh6njq1p2v",
+      "title": "Bundler",
+      "desc": "",
+      "updated": 1681660356040,
+      "created": 1676214054147,
+      "custom": {},
+      "fname": "computing.web.bundler",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "c08ba43b6b5e525a220227be719dab31",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "computing.web.bundler",
+            "id": "ytfs18osddd01wh6njq1p2v",
+            "vaultName": "docs"
+          },
+          "value": "user.parcel/transformer-typescript-tsc",
+          "alias": "@parcel/transformer-typescript-tsc",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 21,
+              "offset": 864
+            },
+            "end": {
+              "line": 43,
+              "column": 55,
+              "offset": 898
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.parcel/transformer-typescript-tsc"
+          }
+        }
+      ],
+      "anchors": {
+        "bundler": {
+          "type": "header",
+          "text": "Bundler",
+          "value": "bundler",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "tools": {
+          "type": "header",
+          "text": "Tools",
+          "value": "tools",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "webpack": {
+          "type": "header",
+          "text": "webpack",
+          "value": "webpack",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "parcel": {
+          "type": "header",
+          "text": "parcel",
+          "value": "parcel",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "bugs-encountered": {
+          "type": "header",
+          "text": "Bugs encountered",
+          "value": "bugs-encountered",
+          "line": 33,
+          "column": 0,
+          "depth": 3
+        },
+        "when-building-a-library": {
+          "type": "header",
+          "text": "When building a library",
+          "value": "when-building-a-library",
+          "line": 39,
+          "column": 0,
+          "depth": 4
+        },
+        "export-issue": {
+          "type": "header",
+          "text": "Export issue",
+          "value": "export-issue",
+          "line": 51,
+          "column": 0,
+          "depth": 4
+        },
+        "import-issue": {
+          "type": "header",
+          "text": "Import issue",
+          "value": "import-issue",
+          "line": 67,
+          "column": 0,
+          "depth": 4
+        },
+        "dependency-reload": {
+          "type": "header",
+          "text": "dependency reload",
+          "value": "dependency-reload",
+          "line": 75,
+          "column": 0,
+          "depth": 4
+        },
+        "targetting-web-app--library": {
+          "type": "header",
+          "text": "Targetting web app + library",
+          "value": "targetting-web-app--library",
+          "line": 85,
+          "column": 0,
+          "depth": 4
+        },
+        "tsc-interop": {
+          "type": "header",
+          "text": "tsc interop",
+          "value": "tsc-interop",
+          "line": 111,
+          "column": 0,
+          "depth": 4
+        },
+        "rollupjs": {
+          "type": "header",
+          "text": "rollup.js",
+          "value": "rollupjs",
+          "line": 127,
+          "column": 0,
+          "depth": 3
+        },
+        "brunchio": {
+          "type": "header",
+          "text": "brunch.io",
+          "value": "brunchio",
+          "line": 133,
+          "column": 0,
+          "depth": 3
+        },
+        "gulpjs": {
+          "type": "header",
+          "text": "gulpjs",
+          "value": "gulpjs",
+          "line": 139,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "3279dmpg8304tgol4f7qa7f",
+      "data": {}
+    },
+    "39ey2tgd31f8y93gd7xaup8": {
+      "fname": "computing.game",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1681660618182,
+      "created": 1681660618182,
+      "id": "39ey2tgd31f8y93gd7xaup8",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "ym37t0fififqhxatkudbgva"
+      ],
+      "parent": "zemh9c57p0ywtbqwkha0soq",
+      "data": {},
+      "title": "Game"
+    },
+    "ym37t0fififqhxatkudbgva": {
+      "id": "ym37t0fififqhxatkudbgva",
+      "title": "Procedural Texture",
+      "desc": "",
+      "updated": 1681660405708,
+      "created": 1679498248843,
+      "custom": {},
+      "fname": "computing.game.procedural-texture",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "25c5a24b103a5fb76c7db87ee4d494d7",
+      "links": [],
+      "anchors": {
+        "procedural-texture": {
+          "type": "header",
+          "text": "Procedural texture",
+          "value": "procedural-texture",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "unity": {
+          "type": "header",
+          "text": "Unity",
+          "value": "unity",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "39ey2tgd31f8y93gd7xaup8",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "os9ivsua46f0vj4p0yyqhx0",
+      "title": "Root",
+      "desc": "",
+      "updated": 1681658547293,
+      "created": 1676142715220,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "f2b2cb51b9be244f6389288b0e9baa6c",
+      "links": [],
+      "anchors": {
+        "awesome-knowledge": {
+          "type": "header",
+          "text": "Awesome Knowledge",
+          "value": "awesome-knowledge",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "zemh9c57p0ywtbqwkha0soq",
+        "toyv6kmg7rwqipup4ddf6ri"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "# Awesome Knowledge\n\nThis contains various knowledge on different topics.\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "os9ivsua46f0vj4p0yyqhx0",
+    "title": "Root",
+    "desc": "",
+    "updated": 1681658547293,
+    "created": 1676142715220,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "docs"
+    },
+    "contentHash": "f2b2cb51b9be244f6389288b0e9baa6c",
+    "links": [],
+    "anchors": {
+      "awesome-knowledge": {
+        "type": "header",
+        "text": "Awesome Knowledge",
+        "value": "awesome-knowledge",
+        "line": 7,
+        "column": 0,
+        "depth": 1
+      }
+    },
+    "children": [
+      "zemh9c57p0ywtbqwkha0soq",
+      "toyv6kmg7rwqipup4ddf6ri"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "# Awesome Knowledge\n\nThis contains various knowledge on different topics.\n"
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "docs"
+    }
+  ]
+}
